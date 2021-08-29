@@ -1,0 +1,1268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730B531C26CE548F00078EB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 730B531B26CE548F00078EB6 /* main.m */; };
+		730B532B26CF3BEA00078EB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 730B532A26CF3BEA00078EB6 /* main.m */; };
+		730B533826D3978B00078EB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 730B533726D3978B00078EB6 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		730B534B26D4712000078EB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 730B534A26D4712000078EB6 /* main.m */; };
+		730B535826D478A000078EB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 730B535726D478A000078EB6 /* main.m */; };
+		7333B0D426D7384F0025E428 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7333B0D326D7384F0025E428 /* main.m */; };
+		7333B0D826D738550025E428 /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 730B534226D39A8900078EB6 /* TestObj.m */; };
+		7333B0E626D7C2750025E428 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7333B0E526D7C2750025E428 /* main.m */; };
+		7333B0F126D7CC6A0025E428 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7333B0F026D7CC6A0025E428 /* main.m */; };
+		73538E2B26DB2C0D00D3940D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73538E2A26DB2C0D00D3940D /* main.m */; };
+		73538E3126DB2C2E00D3940D /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 73538E2F26DB2C2E00D3940D /* TestObj.m */; };
+		73538E3C26DB3AF800D3940D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73538E3B26DB3AF800D3940D /* AppDelegate.m */; };
+		73538E3F26DB3AF800D3940D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73538E3E26DB3AF800D3940D /* SceneDelegate.m */; };
+		73538E4226DB3AF800D3940D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73538E4126DB3AF800D3940D /* ViewController.m */; };
+		73538E4526DB3AF800D3940D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73538E4326DB3AF800D3940D /* Main.storyboard */; };
+		73538E4726DB3AFA00D3940D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73538E4626DB3AFA00D3940D /* Assets.xcassets */; };
+		73538E4A26DB3AFA00D3940D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73538E4826DB3AFA00D3940D /* LaunchScreen.storyboard */; };
+		73538E4D26DB3AFA00D3940D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73538E4C26DB3AFA00D3940D /* main.m */; };
+		73538E7226DB3B6300D3940D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73538E7126DB3B6300D3940D /* TestViewController.m */; };
+		73D27E2126D7EC460010229E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D27E2026D7EC460010229E /* main.m */; };
+		73D27E2726D7EC760010229E /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D27E2626D7EC760010229E /* TestObj.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		730B531626CE548F00078EB6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		730B532626CF3BEA00078EB6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		730B533326D3978B00078EB6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		730B534626D4712000078EB6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		730B535326D478A000078EB6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7333B0CF26D7384F0025E428 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7333B0E126D7C2750025E428 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7333B0EC26D7CC6A0025E428 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		73538E2626DB2C0D00D3940D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		73D27E1C26D7EC460010229E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		730B531826CE548F00078EB6 /* Block原理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Block原理"; sourceTree = BUILT_PRODUCTS_DIR; };
+		730B531B26CE548F00078EB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		730B532226CEA78300078EB6 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		730B532826CF3BEA00078EB6 /* Block变量的捕获 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Block变量的捕获"; sourceTree = BUILT_PRODUCTS_DIR; };
+		730B532A26CF3BEA00078EB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		730B532F26CF3C7E00078EB6 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		730B533526D3978B00078EB6 /* Block堆栈对变量捕获的影响 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Block堆栈对变量捕获的影响"; sourceTree = BUILT_PRODUCTS_DIR; };
+		730B533726D3978B00078EB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		730B533C26D397E300078EB6 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		730B534126D39A8900078EB6 /* TestObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObj.h; sourceTree = "<group>"; };
+		730B534226D39A8900078EB6 /* TestObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObj.m; sourceTree = "<group>"; };
+		730B534826D4712000078EB6 /* __Block的原理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "__Block的原理"; sourceTree = BUILT_PRODUCTS_DIR; };
+		730B534A26D4712000078EB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		730B535526D478A000078EB6 /* __Block的原理_02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "__Block的原理_02"; sourceTree = BUILT_PRODUCTS_DIR; };
+		730B535726D478A000078EB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		730B535C26D478D400078EB6 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		730B535E26D4E17B00078EB6 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7333B0D126D7384F0025E428 /* 修饰符 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "修饰符"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7333B0D326D7384F0025E428 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7333B0DD26D73DF70025E428 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7333B0E326D7C2750025E428 /* block声明 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "block声明"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7333B0E526D7C2750025E428 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7333B0EE26D7CC6A0025E428 /* Block变量的捕获02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Block变量的捕获02"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7333B0F026D7CC6A0025E428 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7333B0FC26D7D33D0025E428 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		73538E2226DA3D0400D3940D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		73538E2826DB2C0D00D3940D /* block中的weak和strong */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "block中的weak和strong"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73538E2A26DB2C0D00D3940D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73538E2F26DB2C2E00D3940D /* TestObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObj.m; sourceTree = "<group>"; };
+		73538E3026DB2C2E00D3940D /* TestObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObj.h; sourceTree = "<group>"; };
+		73538E3226DB325600D3940D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		73538E3826DB3AF800D3940D /* block中的weak和storng02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "block中的weak和storng02.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73538E3A26DB3AF800D3940D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		73538E3B26DB3AF800D3940D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		73538E3D26DB3AF800D3940D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		73538E3E26DB3AF800D3940D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		73538E4026DB3AF800D3940D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		73538E4126DB3AF800D3940D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		73538E4426DB3AF800D3940D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73538E4626DB3AFA00D3940D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73538E4926DB3AFA00D3940D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73538E4B26DB3AFA00D3940D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73538E4C26DB3AFA00D3940D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73538E7026DB3B6300D3940D /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		73538E7126DB3B6300D3940D /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		73D27E1E26D7EC460010229E /* block和修饰符 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "block和修饰符"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D27E2026D7EC460010229E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73D27E2526D7EC760010229E /* TestObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObj.h; sourceTree = "<group>"; };
+		73D27E2626D7EC760010229E /* TestObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObj.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		730B531526CE548F00078EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730B532526CF3BEA00078EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730B533226D3978B00078EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730B534526D4712000078EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730B535226D478A000078EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7333B0CE26D7384F0025E428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7333B0E026D7C2750025E428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7333B0EB26D7CC6A0025E428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73538E2526DB2C0D00D3940D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73538E3526DB3AF800D3940D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73D27E1B26D7EC460010229E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		730B530F26CE548F00078EB6 = {
+			isa = PBXGroup;
+			children = (
+				7333B0E426D7C2750025E428 /* block声明 */,
+				730B531A26CE548F00078EB6 /* Block原理 */,
+				730B532926CF3BEA00078EB6 /* Block变量的捕获 */,
+				7333B0EF26D7CC6A0025E428 /* Block变量的捕获02 */,
+				730B533626D3978B00078EB6 /* Block堆栈对变量捕获的影响 */,
+				730B534926D4712000078EB6 /* __Block的原理 */,
+				730B535626D478A000078EB6 /* __Block的原理_02 */,
+				7333B0D226D7384F0025E428 /* 修饰符 */,
+				73D27E1F26D7EC460010229E /* block和修饰符 */,
+				73538E2926DB2C0D00D3940D /* block中的weak和strong */,
+				73538E3926DB3AF800D3940D /* block中的weak和storng02 */,
+				730B531926CE548F00078EB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		730B531926CE548F00078EB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				730B531826CE548F00078EB6 /* Block原理 */,
+				730B532826CF3BEA00078EB6 /* Block变量的捕获 */,
+				730B533526D3978B00078EB6 /* Block堆栈对变量捕获的影响 */,
+				730B534826D4712000078EB6 /* __Block的原理 */,
+				730B535526D478A000078EB6 /* __Block的原理_02 */,
+				7333B0D126D7384F0025E428 /* 修饰符 */,
+				7333B0E326D7C2750025E428 /* block声明 */,
+				7333B0EE26D7CC6A0025E428 /* Block变量的捕获02 */,
+				73D27E1E26D7EC460010229E /* block和修饰符 */,
+				73538E2826DB2C0D00D3940D /* block中的weak和strong */,
+				73538E3826DB3AF800D3940D /* block中的weak和storng02.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		730B531A26CE548F00078EB6 /* Block原理 */ = {
+			isa = PBXGroup;
+			children = (
+				730B532226CEA78300078EB6 /* main.cpp */,
+				730B531B26CE548F00078EB6 /* main.m */,
+			);
+			path = "Block原理";
+			sourceTree = "<group>";
+		};
+		730B532926CF3BEA00078EB6 /* Block变量的捕获 */ = {
+			isa = PBXGroup;
+			children = (
+				730B532F26CF3C7E00078EB6 /* main.cpp */,
+				730B532A26CF3BEA00078EB6 /* main.m */,
+			);
+			path = "Block变量的捕获";
+			sourceTree = "<group>";
+		};
+		730B533626D3978B00078EB6 /* Block堆栈对变量捕获的影响 */ = {
+			isa = PBXGroup;
+			children = (
+				730B533C26D397E300078EB6 /* main.cpp */,
+				730B533726D3978B00078EB6 /* main.m */,
+			);
+			path = "Block堆栈对变量捕获的影响";
+			sourceTree = "<group>";
+		};
+		730B534926D4712000078EB6 /* __Block的原理 */ = {
+			isa = PBXGroup;
+			children = (
+				730B535E26D4E17B00078EB6 /* main.cpp */,
+				730B534A26D4712000078EB6 /* main.m */,
+			);
+			path = "__Block的原理";
+			sourceTree = "<group>";
+		};
+		730B535626D478A000078EB6 /* __Block的原理_02 */ = {
+			isa = PBXGroup;
+			children = (
+				730B535C26D478D400078EB6 /* main.cpp */,
+				730B535726D478A000078EB6 /* main.m */,
+			);
+			path = "__Block的原理_02";
+			sourceTree = "<group>";
+		};
+		7333B0D226D7384F0025E428 /* 修饰符 */ = {
+			isa = PBXGroup;
+			children = (
+				7333B0DD26D73DF70025E428 /* main.cpp */,
+				7333B0D326D7384F0025E428 /* main.m */,
+				730B534126D39A8900078EB6 /* TestObj.h */,
+				730B534226D39A8900078EB6 /* TestObj.m */,
+			);
+			path = "修饰符";
+			sourceTree = "<group>";
+		};
+		7333B0E426D7C2750025E428 /* block声明 */ = {
+			isa = PBXGroup;
+			children = (
+				7333B0E526D7C2750025E428 /* main.m */,
+			);
+			path = "block声明";
+			sourceTree = "<group>";
+		};
+		7333B0EF26D7CC6A0025E428 /* Block变量的捕获02 */ = {
+			isa = PBXGroup;
+			children = (
+				7333B0FC26D7D33D0025E428 /* main.cpp */,
+				7333B0F026D7CC6A0025E428 /* main.m */,
+			);
+			path = "Block变量的捕获02";
+			sourceTree = "<group>";
+		};
+		73538E2926DB2C0D00D3940D /* block中的weak和strong */ = {
+			isa = PBXGroup;
+			children = (
+				73538E3226DB325600D3940D /* main.cpp */,
+				73538E3026DB2C2E00D3940D /* TestObj.h */,
+				73538E2F26DB2C2E00D3940D /* TestObj.m */,
+				73538E2A26DB2C0D00D3940D /* main.m */,
+			);
+			path = "block中的weak和strong";
+			sourceTree = "<group>";
+		};
+		73538E3926DB3AF800D3940D /* block中的weak和storng02 */ = {
+			isa = PBXGroup;
+			children = (
+				73538E3A26DB3AF800D3940D /* AppDelegate.h */,
+				73538E3B26DB3AF800D3940D /* AppDelegate.m */,
+				73538E3D26DB3AF800D3940D /* SceneDelegate.h */,
+				73538E3E26DB3AF800D3940D /* SceneDelegate.m */,
+				73538E4026DB3AF800D3940D /* ViewController.h */,
+				73538E4126DB3AF800D3940D /* ViewController.m */,
+				73538E7026DB3B6300D3940D /* TestViewController.h */,
+				73538E7126DB3B6300D3940D /* TestViewController.m */,
+				73538E4326DB3AF800D3940D /* Main.storyboard */,
+				73538E4626DB3AFA00D3940D /* Assets.xcassets */,
+				73538E4826DB3AFA00D3940D /* LaunchScreen.storyboard */,
+				73538E4B26DB3AFA00D3940D /* Info.plist */,
+				73538E4C26DB3AFA00D3940D /* main.m */,
+			);
+			path = "block中的weak和storng02";
+			sourceTree = "<group>";
+		};
+		73D27E1F26D7EC460010229E /* block和修饰符 */ = {
+			isa = PBXGroup;
+			children = (
+				73538E2226DA3D0400D3940D /* main.cpp */,
+				73D27E2526D7EC760010229E /* TestObj.h */,
+				73D27E2626D7EC760010229E /* TestObj.m */,
+				73D27E2026D7EC460010229E /* main.m */,
+			);
+			path = "block和修饰符";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		730B531726CE548F00078EB6 /* Block原理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730B531F26CE548F00078EB6 /* Build configuration list for PBXNativeTarget "Block原理" */;
+			buildPhases = (
+				730B531426CE548F00078EB6 /* Sources */,
+				730B531526CE548F00078EB6 /* Frameworks */,
+				730B531626CE548F00078EB6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Block原理";
+			productName = "Block原理";
+			productReference = 730B531826CE548F00078EB6 /* Block原理 */;
+			productType = "com.apple.product-type.tool";
+		};
+		730B532726CF3BEA00078EB6 /* Block变量的捕获 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730B532C26CF3BEA00078EB6 /* Build configuration list for PBXNativeTarget "Block变量的捕获" */;
+			buildPhases = (
+				730B532426CF3BEA00078EB6 /* Sources */,
+				730B532526CF3BEA00078EB6 /* Frameworks */,
+				730B532626CF3BEA00078EB6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Block变量的捕获";
+			productName = "Block变量的捕获";
+			productReference = 730B532826CF3BEA00078EB6 /* Block变量的捕获 */;
+			productType = "com.apple.product-type.tool";
+		};
+		730B533426D3978B00078EB6 /* Block堆栈对变量捕获的影响 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730B533926D3978B00078EB6 /* Build configuration list for PBXNativeTarget "Block堆栈对变量捕获的影响" */;
+			buildPhases = (
+				730B533126D3978B00078EB6 /* Sources */,
+				730B533226D3978B00078EB6 /* Frameworks */,
+				730B533326D3978B00078EB6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Block堆栈对变量捕获的影响";
+			productName = "Block堆栈对变量捕获的影响";
+			productReference = 730B533526D3978B00078EB6 /* Block堆栈对变量捕获的影响 */;
+			productType = "com.apple.product-type.tool";
+		};
+		730B534726D4712000078EB6 /* __Block的原理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730B534C26D4712000078EB6 /* Build configuration list for PBXNativeTarget "__Block的原理" */;
+			buildPhases = (
+				730B534426D4712000078EB6 /* Sources */,
+				730B534526D4712000078EB6 /* Frameworks */,
+				730B534626D4712000078EB6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "__Block的原理";
+			productName = "__Block的原理";
+			productReference = 730B534826D4712000078EB6 /* __Block的原理 */;
+			productType = "com.apple.product-type.tool";
+		};
+		730B535426D478A000078EB6 /* __Block的原理_02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730B535926D478A000078EB6 /* Build configuration list for PBXNativeTarget "__Block的原理_02" */;
+			buildPhases = (
+				730B535126D478A000078EB6 /* Sources */,
+				730B535226D478A000078EB6 /* Frameworks */,
+				730B535326D478A000078EB6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "__Block的原理_02";
+			productName = "__Block的原理_02";
+			productReference = 730B535526D478A000078EB6 /* __Block的原理_02 */;
+			productType = "com.apple.product-type.tool";
+		};
+		7333B0D026D7384F0025E428 /* 修饰符 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7333B0D726D7384F0025E428 /* Build configuration list for PBXNativeTarget "修饰符" */;
+			buildPhases = (
+				7333B0CD26D7384F0025E428 /* Sources */,
+				7333B0CE26D7384F0025E428 /* Frameworks */,
+				7333B0CF26D7384F0025E428 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "修饰符";
+			productName = "修饰符";
+			productReference = 7333B0D126D7384F0025E428 /* 修饰符 */;
+			productType = "com.apple.product-type.tool";
+		};
+		7333B0E226D7C2750025E428 /* block声明 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7333B0E726D7C2750025E428 /* Build configuration list for PBXNativeTarget "block声明" */;
+			buildPhases = (
+				7333B0DF26D7C2750025E428 /* Sources */,
+				7333B0E026D7C2750025E428 /* Frameworks */,
+				7333B0E126D7C2750025E428 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "block声明";
+			productName = "block声明";
+			productReference = 7333B0E326D7C2750025E428 /* block声明 */;
+			productType = "com.apple.product-type.tool";
+		};
+		7333B0ED26D7CC6A0025E428 /* Block变量的捕获02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7333B0F226D7CC6A0025E428 /* Build configuration list for PBXNativeTarget "Block变量的捕获02" */;
+			buildPhases = (
+				7333B0EA26D7CC6A0025E428 /* Sources */,
+				7333B0EB26D7CC6A0025E428 /* Frameworks */,
+				7333B0EC26D7CC6A0025E428 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Block变量的捕获02";
+			productName = "Block变量的捕获02";
+			productReference = 7333B0EE26D7CC6A0025E428 /* Block变量的捕获02 */;
+			productType = "com.apple.product-type.tool";
+		};
+		73538E2726DB2C0D00D3940D /* block中的weak和strong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73538E2C26DB2C0D00D3940D /* Build configuration list for PBXNativeTarget "block中的weak和strong" */;
+			buildPhases = (
+				73538E2426DB2C0D00D3940D /* Sources */,
+				73538E2526DB2C0D00D3940D /* Frameworks */,
+				73538E2626DB2C0D00D3940D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "block中的weak和strong";
+			productName = "block中的weak和strong";
+			productReference = 73538E2826DB2C0D00D3940D /* block中的weak和strong */;
+			productType = "com.apple.product-type.tool";
+		};
+		73538E3726DB3AF800D3940D /* block中的weak和storng02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73538E6426DB3AFA00D3940D /* Build configuration list for PBXNativeTarget "block中的weak和storng02" */;
+			buildPhases = (
+				73538E3426DB3AF800D3940D /* Sources */,
+				73538E3526DB3AF800D3940D /* Frameworks */,
+				73538E3626DB3AF800D3940D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "block中的weak和storng02";
+			productName = "block中的weak和storng02";
+			productReference = 73538E3826DB3AF800D3940D /* block中的weak和storng02.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73D27E1D26D7EC460010229E /* block和修饰符 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73D27E2426D7EC460010229E /* Build configuration list for PBXNativeTarget "block和修饰符" */;
+			buildPhases = (
+				73D27E1A26D7EC460010229E /* Sources */,
+				73D27E1B26D7EC460010229E /* Frameworks */,
+				73D27E1C26D7EC460010229E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "block和修饰符";
+			productName = "block和修饰符";
+			productReference = 73D27E1E26D7EC460010229E /* block和修饰符 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		730B531026CE548F00078EB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					730B531726CE548F00078EB6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					730B532726CF3BEA00078EB6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					730B533426D3978B00078EB6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					730B534726D4712000078EB6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					730B535426D478A000078EB6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					7333B0D026D7384F0025E428 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					7333B0E226D7C2750025E428 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					7333B0ED26D7CC6A0025E428 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					73538E2726DB2C0D00D3940D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					73538E3726DB3AF800D3940D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					73D27E1D26D7EC460010229E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 730B531326CE548F00078EB6 /* Build configuration list for PBXProject "Block原理" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 730B530F26CE548F00078EB6;
+			productRefGroup = 730B531926CE548F00078EB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7333B0E226D7C2750025E428 /* block声明 */,
+				730B531726CE548F00078EB6 /* Block原理 */,
+				730B532726CF3BEA00078EB6 /* Block变量的捕获 */,
+				7333B0ED26D7CC6A0025E428 /* Block变量的捕获02 */,
+				730B533426D3978B00078EB6 /* Block堆栈对变量捕获的影响 */,
+				730B534726D4712000078EB6 /* __Block的原理 */,
+				730B535426D478A000078EB6 /* __Block的原理_02 */,
+				7333B0D026D7384F0025E428 /* 修饰符 */,
+				73D27E1D26D7EC460010229E /* block和修饰符 */,
+				73538E2726DB2C0D00D3940D /* block中的weak和strong */,
+				73538E3726DB3AF800D3940D /* block中的weak和storng02 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73538E3626DB3AF800D3940D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73538E4A26DB3AFA00D3940D /* LaunchScreen.storyboard in Resources */,
+				73538E4726DB3AFA00D3940D /* Assets.xcassets in Resources */,
+				73538E4526DB3AF800D3940D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		730B531426CE548F00078EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730B531C26CE548F00078EB6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730B532426CF3BEA00078EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730B532B26CF3BEA00078EB6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730B533126D3978B00078EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730B533826D3978B00078EB6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730B534426D4712000078EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730B534B26D4712000078EB6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730B535126D478A000078EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730B535826D478A000078EB6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7333B0CD26D7384F0025E428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7333B0D426D7384F0025E428 /* main.m in Sources */,
+				7333B0D826D738550025E428 /* TestObj.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7333B0DF26D7C2750025E428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7333B0E626D7C2750025E428 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7333B0EA26D7CC6A0025E428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7333B0F126D7CC6A0025E428 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73538E2426DB2C0D00D3940D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73538E2B26DB2C0D00D3940D /* main.m in Sources */,
+				73538E3126DB2C2E00D3940D /* TestObj.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73538E3426DB3AF800D3940D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73538E4226DB3AF800D3940D /* ViewController.m in Sources */,
+				73538E3C26DB3AF800D3940D /* AppDelegate.m in Sources */,
+				73538E4D26DB3AFA00D3940D /* main.m in Sources */,
+				73538E3F26DB3AF800D3940D /* SceneDelegate.m in Sources */,
+				73538E7226DB3B6300D3940D /* TestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73D27E1A26D7EC460010229E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D27E2126D7EC460010229E /* main.m in Sources */,
+				73D27E2726D7EC760010229E /* TestObj.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73538E4326DB3AF800D3940D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73538E4426DB3AF800D3940D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73538E4826DB3AFA00D3940D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73538E4926DB3AFA00D3940D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		730B531D26CE548F00078EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		730B531E26CE548F00078EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		730B532026CE548F00078EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		730B532126CE548F00078EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		730B532D26CF3BEA00078EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		730B532E26CF3BEA00078EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		730B533A26D3978B00078EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		730B533B26D3978B00078EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		730B534D26D4712000078EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		730B534E26D4712000078EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		730B535A26D478A000078EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		730B535B26D478A000078EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7333B0D526D7384F0025E428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7333B0D626D7384F0025E428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7333B0E826D7C2750025E428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7333B0E926D7C2750025E428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7333B0F326D7CC6A0025E428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7333B0F426D7CC6A0025E428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		73538E2D26DB2C0D00D3940D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		73538E2E26DB2C0D00D3940D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		73538E6526DB3AFA00D3940D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				INFOPLIST_FILE = "block中的weak和storng02/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linyu.com.block--weak-storng02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73538E6626DB3AFA00D3940D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				INFOPLIST_FILE = "block中的weak和storng02/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linyu.com.block--weak-storng02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73D27E2226D7EC460010229E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		73D27E2326D7EC460010229E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M69H647QU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		730B531326CE548F00078EB6 /* Build configuration list for PBXProject "Block原理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730B531D26CE548F00078EB6 /* Debug */,
+				730B531E26CE548F00078EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730B531F26CE548F00078EB6 /* Build configuration list for PBXNativeTarget "Block原理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730B532026CE548F00078EB6 /* Debug */,
+				730B532126CE548F00078EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730B532C26CF3BEA00078EB6 /* Build configuration list for PBXNativeTarget "Block变量的捕获" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730B532D26CF3BEA00078EB6 /* Debug */,
+				730B532E26CF3BEA00078EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730B533926D3978B00078EB6 /* Build configuration list for PBXNativeTarget "Block堆栈对变量捕获的影响" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730B533A26D3978B00078EB6 /* Debug */,
+				730B533B26D3978B00078EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730B534C26D4712000078EB6 /* Build configuration list for PBXNativeTarget "__Block的原理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730B534D26D4712000078EB6 /* Debug */,
+				730B534E26D4712000078EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730B535926D478A000078EB6 /* Build configuration list for PBXNativeTarget "__Block的原理_02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730B535A26D478A000078EB6 /* Debug */,
+				730B535B26D478A000078EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7333B0D726D7384F0025E428 /* Build configuration list for PBXNativeTarget "修饰符" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7333B0D526D7384F0025E428 /* Debug */,
+				7333B0D626D7384F0025E428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7333B0E726D7C2750025E428 /* Build configuration list for PBXNativeTarget "block声明" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7333B0E826D7C2750025E428 /* Debug */,
+				7333B0E926D7C2750025E428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7333B0F226D7CC6A0025E428 /* Build configuration list for PBXNativeTarget "Block变量的捕获02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7333B0F326D7CC6A0025E428 /* Debug */,
+				7333B0F426D7CC6A0025E428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73538E2C26DB2C0D00D3940D /* Build configuration list for PBXNativeTarget "block中的weak和strong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73538E2D26DB2C0D00D3940D /* Debug */,
+				73538E2E26DB2C0D00D3940D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73538E6426DB3AFA00D3940D /* Build configuration list for PBXNativeTarget "block中的weak和storng02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73538E6526DB3AFA00D3940D /* Debug */,
+				73538E6626DB3AFA00D3940D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73D27E2426D7EC460010229E /* Build configuration list for PBXNativeTarget "block和修饰符" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73D27E2226D7EC460010229E /* Debug */,
+				73D27E2326D7EC460010229E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 730B531026CE548F00078EB6 /* Project object */;
+}
