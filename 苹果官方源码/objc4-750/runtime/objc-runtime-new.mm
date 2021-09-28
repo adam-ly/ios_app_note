@@ -766,9 +766,8 @@ attachCategories(Class cls, category_list *cats, bool flush_caches)
     if (PrintReplacedMethods) printReplacements(cls, cats);
 
     bool isMeta = cls->isMetaClass();
-
-    // fixme rearrange to remove these intermediate allocations
-    // 这里是二维数组,存放着方法数组
+    
+    // 这里是二维数组,存放着每个类别的方法数组
     method_list_t **mlists = (method_list_t **)
         malloc(cats->count * sizeof(*mlists));
     property_list_t **proplists = (property_list_t **)
@@ -776,13 +775,13 @@ attachCategories(Class cls, category_list *cats, bool flush_caches)
     protocol_list_t **protolists = (protocol_list_t **)
         malloc(cats->count * sizeof(*protolists));
 
-    // Count backwards through cats to get newest categories first
+    // Count backwards through cats to get newest categories first -> 逆序以便于使用最新的类别。
     int mcount = 0;
     int propcount = 0;
     int protocount = 0;
     int i = cats->count;
     bool fromBundle = NO;
-    while (i--) {  //注释中提到这里是逆序插入,后增加的类别会先加入到二维数组中
+    while (i--) {  //注释中提到这里是逆序插入,后增加的类别会先加入到二维数组中，即后增加的类别方法，如果跟先增加的类别方法同名，那么后增加的会被先执行。
         auto& entry = cats->list[i]; //取出类别的方法列表
         
         method_list_t *mlist = entry.cat->methodsForMeta(isMeta);
@@ -793,12 +792,12 @@ attachCategories(Class cls, category_list *cats, bool flush_caches)
 
         property_list_t *proplist = 
             entry.cat->propertiesForMeta(isMeta, entry.hi);
-        if (proplist) {
+        if (proplist) { //将类别中的属性数组添加到二维数组中
             proplists[propcount++] = proplist;
         }
 
         protocol_list_t *protolist = entry.cat->protocols;
-        if (protolist) {
+        if (protolist) { //将类别中的protocol数组添加到二维数组中
             protolists[protocount++] = protolist;
         }
     }
@@ -2734,6 +2733,7 @@ void _read_images(header_info **hList, uint32_t hCount, int totalClasses, int un
             // the class is realized.
             
             bool classExists = NO;
+            
             //判断类别中是否有对象方法、协议、属性
             if (cat->instanceMethods ||  cat->protocols  
                 ||  cat->instanceProperties) 
@@ -4852,7 +4852,7 @@ IMP _class_lookupMethodAndLoadCache3(id obj, SEL sel, Class cls)
                               YES/*initialize*/, NO/*cache*/, YES/*resolver*/);
 }
 
-
+//⚠️objc_msgLookup
 /***********************************************************************
 * lookUpImpOrForward.
 * The standard IMP lookup. 

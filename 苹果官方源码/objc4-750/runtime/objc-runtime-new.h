@@ -293,14 +293,14 @@ typedef uintptr_t protocol_ref_t;  // protocol_t *, but unremapped
 
 #define PROTOCOL_FIXED_UP_MASK (PROTOCOL_FIXED_UP_1 | PROTOCOL_FIXED_UP_2)
 
-struct protocol_t : objc_object {
+struct protocol_t : objc_object { //protocal_t
     const char *mangledName;
-    struct protocol_list_t *protocols;
-    method_list_t *instanceMethods;
-    method_list_t *classMethods;
-    method_list_t *optionalInstanceMethods;
-    method_list_t *optionalClassMethods;
-    property_list_t *instanceProperties;
+    struct protocol_list_t *protocols; //
+    method_list_t *instanceMethods; //对象方法
+    method_list_t *classMethods; //类方法
+    method_list_t *optionalInstanceMethods; //可选对象方法
+    method_list_t *optionalClassMethods; //可选类方法
+    property_list_t *instanceProperties; //对象属性
     uint32_t size;   // sizeof(protocol_t)
     uint32_t flags;
     // Fields below this point are not always present on disk.
