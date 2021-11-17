@@ -98,7 +98,7 @@
     
 }
 
--(void)dispatchIO{
+- (void)dispatchIO {
     //读取大文件，可以将文件分割并使用全局队列进行并列读取，可以提高读取速度
     // dispatch_io_t 和 dispatch_data_t
     /*
@@ -329,10 +329,10 @@ dispatch_time_t getDispatchTimeByDate(NSDate *date){
 //        NSLog(@"all task finished");
 //    });
     
-     //如果设置为 DISPATCH_TIME_FOREVER 永久等待 则返回值恒为0
+    //如果设置为 DISPATCH_TIME_FOREVER 永久等待 则返回值恒为0
     dispatch_time_t time = DISPATCH_TIME_FOREVER;
     
-     //如果任务执行的时间比所设置的等待时间长 那么会返回1
+    //如果任务执行的时间比所设置的等待时间长 那么会返回1
 //    dispatch_time_t time = 3ull * NSEC_PER_SEC;
     
     // DISPATCH_TIME_NOW 则不用任何等待判定任务是否结束
@@ -368,7 +368,6 @@ dispatch_time_t getDispatchTimeByDate(NSDate *date){
     //主线程 Queue:com.apple.main-thred(serial) 在主队列中
 //    将指定的block “同步”追加到指定的queue中（这里是main queue ） 在追加block结束之前 sync会一直等待
 //     dispatch_sync(dispatch_get_main_queue(), ^{ NSLog(@"main queue"); });
-
     dispatch_queue_t queue = dispatch_queue_create("1", DISPATCH_QUEUE_CONCURRENT);
     dispatch_async(queue, ^{
         NSLog(@"start ");
@@ -378,13 +377,10 @@ dispatch_time_t getDispatchTimeByDate(NSDate *date){
             NSLog(@"finish");
         });
     });
-   
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    
 }
-
 
 @end

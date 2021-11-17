@@ -92,7 +92,7 @@
     //main方法内部为线程执行的主要方法,如果某些特定的任务需要一直开线程执行,那么直接写在main方法里面即可
     LYThread *thread = [[LYThread alloc] initWithBlock:^{
         
-        //如果重写了main方法,那么block就不会走了,而是执行main方法
+        //如果重写了main方法.,那么block就不会走了,而是执行main方法
         NSLog(@"lythread excuted");
     }];
     [thread start];
