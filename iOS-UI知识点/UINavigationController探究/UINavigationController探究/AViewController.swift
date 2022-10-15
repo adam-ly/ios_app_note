@@ -14,7 +14,7 @@ class AViewController: UIViewController, UIGestureRecognizerDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()        
         
-        // 是否将leftButton追加到backButton
+        // 是否将leftButton追加到backButton后面
 //        self.navigationItem.leftItemsSupplementBackButton = true
 //        let btn = UIBarButtonItem.init(title: "左按钮1", style: .done, target: self, action:#selector(click))
 //        self.navigationItem.leftBarButtonItem = btn
@@ -28,16 +28,19 @@ class AViewController: UIViewController, UIGestureRecognizerDelegate{
 //        self.navigationItem.rightBarButtonItems = [rightBtn1,rightBtn2]
         
 //        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
-        
-//        let btn = UIButton.init(type: .system)
-//        btn.setTitle("返回按钮", for: .normal)
-//        btn.setTitleColor(.red, for: .normal)
-//        let barbuttonItem = UIBarButtonItem.init(customView: btn)
-//        self.navigationItem.leftBarButtonItem = barbuttonItem
+//
+        let btn = UIButton.init(type: .system)
+        btn.setImage(UIImage.init(named: "back"), for: .normal)
+        btn.setTitle("返回按钮", for: .normal)
+        btn.addTarget(self, action: #selector(click), for: .touchUpInside)
+        btn.setTitleColor(.red, for: .normal)
+        let barbuttonItem = UIBarButtonItem.init(customView: btn)
+        self.navigationItem.leftBarButtonItem = barbuttonItem
+                
     }
     
     @objc func click() {
-        
+        self.navigationController?.popViewController(animated: true)
     }
 
     override func viewWillLayoutSubviews() {

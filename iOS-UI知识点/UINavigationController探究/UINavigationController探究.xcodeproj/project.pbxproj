@@ -34,12 +34,6 @@
 		04F5E24A28C5E83F0070EE12 /* BBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F5E24828C5E83F0070EE12 /* BBViewController.xib */; };
 		04F5E24C28C5EEFA0070EE12 /* UINavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5E24B28C5EEFA0070EE12 /* UINavigationExtension.swift */; };
 		04F5E24E28C5F4250070EE12 /* UINavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5E24D28C5F4250070EE12 /* UINavigationExtension.swift */; };
-		04F5E25628C748560070EE12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5E25528C748560070EE12 /* AppDelegate.swift */; };
-		04F5E25828C748560070EE12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5E25728C748560070EE12 /* SceneDelegate.swift */; };
-		04F5E25A28C748560070EE12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5E25928C748560070EE12 /* ViewController.swift */; };
-		04F5E25D28C748560070EE12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F5E25B28C748560070EE12 /* Main.storyboard */; };
-		04F5E25F28C748570070EE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F5E25E28C748570070EE12 /* Assets.xcassets */; };
-		04F5E26228C748570070EE12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F5E26028C748570070EE12 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,14 +70,6 @@
 		04F5E24828C5E83F0070EE12 /* BBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BBViewController.xib; sourceTree = "<group>"; };
 		04F5E24B28C5EEFA0070EE12 /* UINavigationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationExtension.swift; sourceTree = "<group>"; };
 		04F5E24D28C5F4250070EE12 /* UINavigationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationExtension.swift; sourceTree = "<group>"; };
-		04F5E25328C748560070EE12 /* ios15中导航栏变化和设置.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios15中导航栏变化和设置.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04F5E25528C748560070EE12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04F5E25728C748560070EE12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04F5E25928C748560070EE12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04F5E25C28C748560070EE12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04F5E25E28C748570070EE12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04F5E26128C748570070EE12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		04F5E26328C748570070EE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +94,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04F5E25028C748560070EE12 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -124,7 +103,6 @@
 				04DE2E5C28BDF21D000058FA /* UINavigationController探究 */,
 				04F5E21228C4B5B60070EE12 /* 设置导航栏背景颜色 */,
 				04F5E23028C5E2BB0070EE12 /* NavigationItem */,
-				04F5E25428C748560070EE12 /* ios15中导航栏变化和设置 */,
 				04DE2E5B28BDF21D000058FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -135,7 +113,6 @@
 				04DE2E5A28BDF21D000058FA /* UINavigationController探究.app */,
 				04F5E21128C4B5B60070EE12 /* 设置导航栏背景颜色.app */,
 				04F5E22F28C5E2BB0070EE12 /* NavigationItem.app */,
-				04F5E25328C748560070EE12 /* ios15中导航栏变化和设置.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -199,20 +176,6 @@
 			path = NavigationItem;
 			sourceTree = "<group>";
 		};
-		04F5E25428C748560070EE12 /* ios15中导航栏变化和设置 */ = {
-			isa = PBXGroup;
-			children = (
-				04F5E25528C748560070EE12 /* AppDelegate.swift */,
-				04F5E25728C748560070EE12 /* SceneDelegate.swift */,
-				04F5E25928C748560070EE12 /* ViewController.swift */,
-				04F5E25B28C748560070EE12 /* Main.storyboard */,
-				04F5E25E28C748570070EE12 /* Assets.xcassets */,
-				04F5E26028C748570070EE12 /* LaunchScreen.storyboard */,
-				04F5E26328C748570070EE12 /* Info.plist */,
-			);
-			path = "ios15中导航栏变化和设置";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -267,23 +230,6 @@
 			productReference = 04F5E22F28C5E2BB0070EE12 /* NavigationItem.app */;
 			productType = "com.apple.product-type.application";
 		};
-		04F5E25228C748560070EE12 /* ios15中导航栏变化和设置 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04F5E26428C748570070EE12 /* Build configuration list for PBXNativeTarget "ios15中导航栏变化和设置" */;
-			buildPhases = (
-				04F5E24F28C748560070EE12 /* Sources */,
-				04F5E25028C748560070EE12 /* Frameworks */,
-				04F5E25128C748560070EE12 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ios15中导航栏变化和设置";
-			productName = "ios15中导航栏变化和设置";
-			productReference = 04F5E25328C748560070EE12 /* ios15中导航栏变化和设置.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -301,9 +247,6 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					04F5E22E28C5E2BB0070EE12 = {
-						CreatedOnToolsVersion = 13.4.1;
-					};
-					04F5E25228C748560070EE12 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -324,7 +267,6 @@
 				04DE2E5928BDF21D000058FA /* UINavigationController探究 */,
 				04F5E21028C4B5B60070EE12 /* 设置导航栏背景颜色 */,
 				04F5E22E28C5E2BB0070EE12 /* NavigationItem */,
-				04F5E25228C748560070EE12 /* ios15中导航栏变化和设置 */,
 			);
 		};
 /* End PBXProject section */
@@ -359,16 +301,6 @@
 				04F5E24628C5E8350070EE12 /* AAViewController.xib in Resources */,
 				04F5E23928C5E2BB0070EE12 /* Main.storyboard in Resources */,
 				04F5E24A28C5E83F0070EE12 /* BBViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04F5E25128C748560070EE12 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04F5E26228C748570070EE12 /* LaunchScreen.storyboard in Resources */,
-				04F5E25F28C748570070EE12 /* Assets.xcassets in Resources */,
-				04F5E25D28C748560070EE12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,16 +341,6 @@
 				04F5E24C28C5EEFA0070EE12 /* UINavigationExtension.swift in Sources */,
 				04F5E23228C5E2BB0070EE12 /* AppDelegate.swift in Sources */,
 				04F5E24528C5E8350070EE12 /* AAViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04F5E24F28C748560070EE12 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04F5E25A28C748560070EE12 /* ViewController.swift in Sources */,
-				04F5E25628C748560070EE12 /* AppDelegate.swift in Sources */,
-				04F5E25828C748560070EE12 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,22 +391,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				04F5E23D28C5E2BE0070EE12 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		04F5E25B28C748560070EE12 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04F5E25C28C748560070EE12 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		04F5E26028C748570070EE12 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04F5E26128C748570070EE12 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -542,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -596,7 +502,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -780,62 +686,6 @@
 			};
 			name = Release;
 		};
-		04F5E26528C748570070EE12 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M69H647QU3;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ios15中导航栏变化和设置/Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.adam.com.ios15---------";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		04F5E26628C748570070EE12 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M69H647QU3;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ios15中导航栏变化和设置/Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.adam.com.ios15---------";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -871,15 +721,6 @@
 			buildConfigurations = (
 				04F5E24128C5E2BE0070EE12 /* Debug */,
 				04F5E24228C5E2BE0070EE12 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		04F5E26428C748570070EE12 /* Build configuration list for PBXNativeTarget "ios15中导航栏变化和设置" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04F5E26528C748570070EE12 /* Debug */,
-				04F5E26628C748570070EE12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

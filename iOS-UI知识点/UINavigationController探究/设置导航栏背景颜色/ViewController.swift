@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         /**修改导航栏的背景颜色方法一：
          普通样式的导航栏设置 bartintColor即可改变背景颜色。backgroundColor部分会被挡住
          */
+        // ⚠️：iOS15以上不会显示
         self.navigationController?.navigationBar.barTintColor = .yellow
         
         // 设置backGroundColor无效，会被挡住

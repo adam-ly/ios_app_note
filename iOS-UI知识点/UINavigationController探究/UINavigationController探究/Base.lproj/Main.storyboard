@@ -904,7 +904,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yvU-p1-k1s"/>
-                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
                             <constraint firstItem="qTT-ko-YfJ" firstAttribute="leading" secondItem="yvU-p1-k1s" secondAttribute="leading" id="MvX-sf-mbd"/>
                             <constraint firstItem="yvU-p1-k1s" firstAttribute="bottom" secondItem="qTT-ko-YfJ" secondAttribute="bottom" id="Pli-We-luj"/>
@@ -930,8 +930,8 @@
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

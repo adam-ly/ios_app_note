@@ -40,8 +40,8 @@ extension UIViewController {
         navigationItem.backBarButtonItem = backItem
         
         // 开启后会使用图片原来的颜色渲染，而不是navigationbar的tintColor
-//        let backIcon = icon?.withRenderingMode(.alwaysOriginal)
-        if let backIcon = icon {
+        if let backIcon = icon?.withRenderingMode(.alwaysTemplate) {
+            // 设置返回按钮的图片，要两个方法一起调用才会正常生效
             navigationController?.navigationBar.backIndicatorImage = backIcon
             navigationController?.navigationBar.backIndicatorTransitionMaskImage = backIcon
         }
