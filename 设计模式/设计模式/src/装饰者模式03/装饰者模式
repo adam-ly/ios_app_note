@@ -1,0 +1,19 @@
+
+1、装饰者模式：在不改变原有对象的基础上，将功能附加到对象上。提供了比继承更有弹性的替代方案
+
+2、装饰者模式中，有两个角色，一个是想要拓展功能的对象（component），一个是装饰component的Decorator、
+   提供一个组建的抽象 AbstractComponent，用来实现具体的 component，而decorator由于是需要拓展方法，
+   所以它的抽象不能直接用AbstractComponent，而是需要多一个继承自AbstractComponent的抽象。
+   并且每个decorator都应持有一个component.
+
+            AbstractComponent
+                   |
+                   |
+        |—————————— ————————————|
+        |                       |
+        |                       |
+   component            AbstractDecorator （拓展方法）
+                                |
+                                |
+                                |
+                            Decorator ( has a component )

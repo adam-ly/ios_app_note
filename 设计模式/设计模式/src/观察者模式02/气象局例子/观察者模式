@@ -1,0 +1,20 @@
+
+观察者模式：
+1、定义了对象之间的一对多依赖，当一个对象改变状态时，它的所有依赖者都会收到通知并自动更新。
+2、观察者和主题之间松耦合，主题只知道观察者实现了某个接口，并不需要知道具体类的细节。并且任何时候都可以增删观察者。
+3、松耦合的另一面体现在，观察者和主题可以轻易的复用。只要接口仍被准守，改变其中的一方不会影响另外一方。
+
+注意：观察者模式并不能很好的解决通知顺序问题。
+
+// 定义如下：
+Interface Observer { // 通常而 Subject（变化的数据） 对应多个 observer 具体类，
+   void update()
+}
+
+Interface Subject {
+   // 注册
+   void registerObserver(Observer o)
+   void removeObserver(Observer o)
+   void notifyObserver(Observer o)
+}
+
