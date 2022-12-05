@@ -1,10 +1,12 @@
 package 装饰者模式03;
 
+// 这里抽象多一层作为装饰者。Coffee都是被装饰者。
 public abstract class CondimentDecrator extends Beverage {
-    //给子类重写description方法，目的是为了与Coffee区分
+    //给子类重写description方法，目的是为了与Coffee区分，
     public abstract String getDescription();
 }
 
+// 牛奶
 class Milk extends CondimentDecrator{
 
     Beverage bervage;
@@ -22,6 +24,7 @@ class Milk extends CondimentDecrator{
     }
 }
 
+// 摩卡
 class Mocha extends CondimentDecrator{
 
     Beverage bervage;
@@ -40,6 +43,7 @@ class Mocha extends CondimentDecrator{
     }
 }
 
+// 奶泡
 class Soy extends CondimentDecrator{
 
     Beverage bervage;

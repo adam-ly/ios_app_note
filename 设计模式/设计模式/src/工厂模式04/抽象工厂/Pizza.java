@@ -1,70 +1,48 @@
 package 工厂模式04.抽象工厂;
 
-class DetroiPizza implements PizzaFactory {
+import 工厂模式04.抽象工厂.Cheese;
+import 工厂模式04.抽象工厂.Clams;
+import 工厂模式04.抽象工厂.Dough;
+import 工厂模式04.抽象工厂.Sauce;
 
-    @Override
-    public void prepare() {
+public abstract class Pizza {
+    String name;
+    Dough dough;
+    Cheese cheese;
+    Clams clams;
+    Sauce sauce;
 
+    abstract void prepare();
+
+    void bake() {
+        System.out.print(name + " bake for 25 mins ");
+    }
+
+    void cut() {
+       System.out.print("cut the pizza into small slices");
+    }
+
+    void box() {
+        System.out.print("place pizza in the box");
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     @Override
-    public void cut() {
-
-    }
-
-    @Override
-    public void bake() {
-
-    }
-
-    @Override
-    public void box() {
-
-    }
-}
-
-class NYPiazza implements PizzaFactory {
-
-    @Override
-    public void prepare() {
-
-    }
-
-    @Override
-    public void cut() {
-
-    }
-
-    @Override
-    public void bake() {
-
-    }
-
-    @Override
-    public void box() {
-
-    }
-}
-
-class ChicagoPizza implements PizzaFactory {
-
-    @Override
-    public void prepare() {
-
-    }
-
-    @Override
-    public void cut() {
-
-    }
-
-    @Override
-    public void bake() {
-
-    }
-
-    @Override
-    public void box() {
-
+    public String toString() {
+        return "Pizza{" +
+                "name='" + name + '\'' +
+                ", dough=" + dough +
+                ", cheese=" + cheese +
+                ", clams=" + clams +
+                ", sauce=" + sauce +
+                '}';
     }
 }
+
