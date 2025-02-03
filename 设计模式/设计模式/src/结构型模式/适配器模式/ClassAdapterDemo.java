@@ -29,6 +29,7 @@ class FlashDrive {  void port() { System.out.print("USB口"); } }
 // 视频高清线
 class ScreenCable{  void cablePort() { System.out.print("HDMI口"); } }
 
+// 继承原来的类并实现接口进行方法的统一适配
 class InternetCableSub extends Internetcable implements TypeCAdapter {
     @Override  void cablePort() { super.cablePort(); }
     @Override public void typecPort() { System.out.print("TypeC port"); }
